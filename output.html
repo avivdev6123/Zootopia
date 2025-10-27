@@ -1,0 +1,223 @@
+<html>
+    <head>
+        <style>
+        @gray-darker:               #444444;
+        @gray-dark:                 #696969;
+        @gray:                      #999999;
+        @gray-light:                #cccccc;
+        @gray-lighter:              #ececec;
+        @gray-lightest:             lighten(@gray-lighter,4%);
+
+
+        html {
+          background-color: #ffe9e9;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40pt;
+            font-weight: normal;
+        }
+
+        body {
+          font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          letter-spacing: 0;
+          padding: 1rem;
+          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          -moz-font-feature-settings: "liga" on;
+          width: 900px;
+          margin: auto;
+        }
+
+        .cards {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        .cards__item {
+          background-color: white;
+          border-radius: 0.25rem;
+          box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+          overflow: hidden;
+          padding: 1rem;
+          margin: 50px;
+        }
+
+        .card__title {
+          color: @gray-dark;
+          font-size: 1.25rem;
+          font-weight: 300;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+
+        .card__text {
+          flex: 1 1 auto;
+          font-size: 0.95rem;
+          line-height: 2;
+          margin-bottom: 1.25rem;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>My Animal Repository</h1>
+        <ul class="cards">
+            <div class='animal-results'>
+        <article class="animal-card">
+          <header><h2 class="animal-name">Banana Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Araneidae</dd></div><div class='row'><dt>genus</dt><dd>Nephila</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>North-America</li><li>Oceania</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Mostly insects</dd></div><div class='row'><dt>name_of_young</dt><dd>Spiderlings, hatchlings</dd></div><div class='row'><dt>group_behavior</dt><dd>Solitary</dd></div><div class='row'><dt>estimated_population_size</dt><dd> Possibly millions. The IUCN classification of most Nephila species is least concern.</dd></div><div class='row'><dt>biggest_threat</dt><dd>Climate change, habitat destruction</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>The way their webs shimmer like gold in the sunlight</dd></div><div class='row'><dt>other_name(s)</dt><dd>Giant wood spider, golden orb weaver, calico spider, writing spider, golden silk orb-weaver</dd></div><div class='row'><dt>gestation_period</dt><dd>Three to four weeks, depending on the weather</dd></div><div class='row'><dt>litter_size</dt><dd>300 to 3000 hatchlings</dd></div><div class='row'><dt>habitat</dt><dd>Moist forests, backyards</dd></div><div class='row'><dt>predators</dt><dd>Birds, damselflies</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>type</dt><dd>Arachnid</dd></div><div class='row'><dt>common_name</dt><dd>Banana spider</dd></div><div class='row'><dt>number_of_species</dt><dd>12</dd></div><div class='row'><dt>location</dt><dd>Warmer areas around the world</dd></div><div class='row'><dt>color</dt><dd>BrownYellowRedBlackGreen</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>lifespan</dt><dd>About one year</dd></div><div class='row'><dt>weight</dt><dd>Up to 0.21 ounces</dd></div><div class='row'><dt>length</dt><dd>1.5 to 2 inches for females, less than an inch for males</dd></div><div class='row'><dt>age_of_sexual_maturity</dt><dd>Between 4th and 6th molt</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Black Widow Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Theridiidae</dd></div><div class='row'><dt>genus</dt><dd>Latrodectus</dd></div><div class='row'><dt>scientific_name</dt><dd>Latrodectus</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>Central-America</li><li>Eurasia</li><li>Europe</li><li>North-America</li><li>Oceania</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>main_prey</dt><dd>Insects, Woodlice, Beetles</dd></div><div class='row'><dt>distinctive_feature</dt><dd>Sharp fangs and shiny black and red body</dd></div><div class='row'><dt>habitat</dt><dd>Urban, temperate forest and woodland</dd></div><div class='row'><dt>predators</dt><dd>Wasp, Birds, Small mammals</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>average_litter_size</dt><dd>250</dd></div><div class='row'><dt>favorite_food</dt><dd>Insects</dd></div><div class='row'><dt>common_name</dt><dd>Black Widow Spider</dd></div><div class='row'><dt>number_of_species</dt><dd>32</dd></div><div class='row'><dt>location</dt><dd>North America</dd></div><div class='row'><dt>slogan</dt><dd>They typically prey on insects!</dd></div><div class='row'><dt>color</dt><dd>BrownYellowRedBlack</dd></div><div class='row'><dt>skin_type</dt><dd>Shell</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Camel Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Solifugae</dd></div><div class='row'><dt>family</dt><dd>Solpugidae</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Asia</li><li>Central-America</li><li>North-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Beetles, Lizards, Small birds, Rodents</dd></div><div class='row'><dt>name_of_young</dt><dd>Spiderling</dd></div><div class='row'><dt>group_behavior</dt><dd>Solitary</dd></div><div class='row'><dt>estimated_population_size</dt><dd>Unknown</dd></div><div class='row'><dt>biggest_threat</dt><dd>Habitat loss, poison, starvation</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>Long pedipalps</dd></div><div class='row'><dt>other_name(s)</dt><dd>Wind scorpion, Sun spider, Egyptian Giant sulpugid</dd></div><div class='row'><dt>gestation_period</dt><dd>11 days</dd></div><div class='row'><dt>habitat</dt><dd>Deserts, scrublands</dd></div><div class='row'><dt>predators</dt><dd>Toads, Scorpions, Bats</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>average_litter_size</dt><dd>50-200</dd></div><div class='row'><dt>lifestyle</dt><dd>Nocturnal</dd></div><div class='row'><dt>common_name</dt><dd>Camel Spider</dd></div><div class='row'><dt>location</dt><dd>Middle East, Mexico, Southwestern United States</dd></div><div class='row'><dt>slogan</dt><dd>Fast, carnivorous arachnid with a painful bite.</dd></div><div class='row'><dt>group</dt><dd>Arachnid</dd></div><div class='row'><dt>color</dt><dd>TanDark Brown</dd></div><div class='row'><dt>skin_type</dt><dd>Hair</dd></div><div class='row'><dt>top_speed</dt><dd>10 mph</dd></div><div class='row'><dt>lifespan</dt><dd>Up to 1 year</dd></div><div class='row'><dt>weight</dt><dd>2 oz</dd></div><div class='row'><dt>length</dt><dd>3-6 inches</dd></div><div class='row'><dt>age_of_weaning</dt><dd>Newly hatched</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Common House Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>aranae</dd></div><div class='row'><dt>family</dt><dd>Theridiidae</dd></div><div class='row'><dt>genus</dt><dd>Parasteatoda</dd></div><div class='row'><dt>scientific_name</dt><dd>Parasteatoda tepidariorum</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>Central-America</li><li>Eurasia</li><li>Europe</li><li>North-America</li><li>Oceania</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Mosquitoes, flies, ants</dd></div><div class='row'><dt>name_of_young</dt><dd>Spiderling</dd></div><div class='row'><dt>group_behavior</dt><dd>Solitary</dd></div><div class='row'><dt>biggest_threat</dt><dd>Loss of habitat, pesticides</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>Eight spindly legs</dd></div><div class='row'><dt>other_name(s)</dt><dd>House spider</dd></div><div class='row'><dt>gestation_period</dt><dd>30-50 days</dd></div><div class='row'><dt>litter_size</dt><dd>400+ eggs</dd></div><div class='row'><dt>habitat</dt><dd>The corners of a room</dd></div><div class='row'><dt>predators</dt><dd>Birds, cats, dogs, wasps</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>type</dt><dd>Insect</dd></div><div class='row'><dt>common_name</dt><dd>House spider</dd></div><div class='row'><dt>location</dt><dd>Worldwide</dd></div><div class='row'><dt>group</dt><dd>Solitary</dd></div><div class='row'><dt>color</dt><dd>BrownBlackTan</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>top_speed</dt><dd>1 mph</dd></div><div class='row'><dt>lifespan</dt><dd>1 year</dd></div><div class='row'><dt>weight</dt><dd>Less than 1 ounce</dd></div><div class='row'><dt>length</dt><dd>0.15in - 0.24in</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Crab Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Thomisidae</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>Central-America</li><li>Eurasia</li><li>Europe</li><li>North-America</li><li>Oceania</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Other insects, flowers, pollen</dd></div><div class='row'><dt>biggest_threat</dt><dd>Parasites and other insects</dd></div><div class='row'><dt>distinctive_feature</dt><dd>Crablike appearance</dd></div><div class='row'><dt>gestation_period</dt><dd>3.5 weeks</dd></div><div class='row'><dt>litter_size</dt><dd>2-1,000</dd></div><div class='row'><dt>habitat</dt><dd>Gardens, meadows, woodlands, tropical rainforests, grasslands, marshes and scrublands</dd></div><div class='row'><dt>predators</dt><dd>Wasps, ants, large spiders, lizards, birds and shrews.</dd></div><div class='row'><dt>diet</dt><dd>Omnivore</dd></div><div class='row'><dt>lifestyle</dt><dd>Diurnal</dd></div><div class='row'><dt>number_of_species</dt><dd>2100</dd></div><div class='row'><dt>color</dt><dd>BrownYellowBlueBlackWhiteGreenPink</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>length</dt><dd>0.16 to 12 inches</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">False Widow Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd> Araneae</dd></div><div class='row'><dt>family</dt><dd>Theridiidae</dd></div><div class='row'><dt>genus</dt><dd>Steatoda</dd></div><div class='row'><dt>scientific_name</dt><dd>Steatoda grossa</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>Central-America</li><li>Eurasia</li><li>Europe</li><li>North-America</li><li>Oceania</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Other spiders and various insects</dd></div><div class='row'><dt>group_behavior</dt><dd>Solitary</dd></div><div class='row'><dt>litter_size</dt><dd>Egg sacs can consist of up to 200 eggs</dd></div><div class='row'><dt>habitat</dt><dd>While they prefer living indoors, these insects can be found in many outdoor ecosystems</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>location</dt><dd>All over the globe</dd></div><div class='row'><dt>color</dt><dd>BrownRed</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>lifespan</dt><dd>Males: 1 to 1½ years; Females: Up to 6 years</dd></div><div class='row'><dt>weight</dt><dd>Up to .03 ounces</dd></div><div class='row'><dt>length</dt><dd>Males: 0.16 to 0.27 inches; Females: 0.27 and 0.59 inches</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Huntsman Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Sparassidae</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>Central-America</li><li>Eurasia</li><li>Europe</li><li>North-America</li><li>Oceania</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Insects, small mammals, other spiders, small lizards</dd></div><div class='row'><dt>name_of_young</dt><dd>Spiderlings or hatchlings</dd></div><div class='row'><dt>group_behavior</dt><dd>Sociable</dd></div><div class='row'><dt>estimated_population_size</dt><dd>At least hundreds of thousands worldwide.</dd></div><div class='row'><dt>biggest_threat</dt><dd>Humans, geckos, birds, parasites</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>Its size</dd></div><div class='row'><dt>other_name(s)</dt><dd>Wood spider, rain spider, lizard eating spider, giant crab spider</dd></div><div class='row'><dt>litter_size</dt><dd>100 to 200 young</dd></div><div class='row'><dt>habitat</dt><dd>Warmer areas of the world</dd></div><div class='row'><dt>predators</dt><dd>Birds, geckos, spider wasps</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>type</dt><dd>Arachnid</dd></div><div class='row'><dt>common_name</dt><dd>Huntsman spider</dd></div><div class='row'><dt>number_of_species</dt><dd>1382</dd></div><div class='row'><dt>location</dt><dd>Oceania, North, South and Central America, Asia, Africa, north and central Europe and the Mediterranean.</dd></div><div class='row'><dt>color</dt><dd>BrownGreyWhiteGreen</dd></div><div class='row'><dt>skin_type</dt><dd>Hair</dd></div><div class='row'><dt>lifespan</dt><dd>2.5 years</dd></div><div class='row'><dt>weight</dt><dd>0.024 ounces to 0.37 pounds</dd></div><div class='row'><dt>length</dt><dd>0.71 inches with a 5.9 inch leg span, though some species are much larger</dd></div><div class='row'><dt>age_of_sexual_maturity</dt><dd>About one year</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Joro Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Araneidae</dd></div><div class='row'><dt>genus</dt><dd>Trichonephila</dd></div><div class='row'><dt>scientific_name</dt><dd>Trichonephila clavata</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Asia</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Insects</dd></div><div class='row'><dt>name_of_young</dt><dd>Baby or spiderling</dd></div><div class='row'><dt>group_behavior</dt><dd>Group</dd></div><div class='row'><dt>biggest_threat</dt><dd>Humans</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>Extremely long legs with large abdomen</dd></div><div class='row'><dt>gestation_period</dt><dd> 2-4 months</dd></div><div class='row'><dt>litter_size</dt><dd>400-500</dd></div><div class='row'><dt>habitat</dt><dd>Anywhere warm and humid</dd></div><div class='row'><dt>predators</dt><dd>Any mammals that eat spiders and other insects</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>type</dt><dd>Arachnid</dd></div><div class='row'><dt>common_name</dt><dd>joro spider</dd></div><div class='row'><dt>number_of_species</dt><dd>1</dd></div><div class='row'><dt>location</dt><dd>Southeast Asia, though it is an invasive species in some parts of the United States</dd></div><div class='row'><dt>group</dt><dd>group</dd></div><div class='row'><dt>color</dt><dd>BrownYellowRedBlueBlack</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>lifespan</dt><dd>one year</dd></div><div class='row'><dt>length</dt><dd>0.7-2.5 cm</dd></div><div class='row'><dt>age_of_sexual_maturity</dt><dd>2-3 months</dd></div><div class='row'><dt>age_of_weaning</dt><dd>Birth</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Jumping Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Salticidae</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>Central-America</li><li>Europe</li><li>North-America</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Other spiders, insects, baby lizards</dd></div><div class='row'><dt>name_of_young</dt><dd>Spiderling</dd></div><div class='row'><dt>group_behavior</dt><dd>Solitary</dd></div><div class='row'><dt>estimated_population_size</dt><dd>billions</dd></div><div class='row'><dt>biggest_threat</dt><dd>Pesticides, climate change</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>Their large eyes</dd></div><div class='row'><dt>gestation_period</dt><dd>Two to three weeks</dd></div><div class='row'><dt>litter_size</dt><dd>30 to 600</dd></div><div class='row'><dt>habitat</dt><dd>Tropical and temperate forests, intertidal zones, mountains, deserts, scrubland, fields, human habitation</dd></div><div class='row'><dt>predators</dt><dd>Mantises, spider wasps, mammals, birds, lizards other spiders</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>type</dt><dd>arachnid</dd></div><div class='row'><dt>common_name</dt><dd>Jumping spider</dd></div><div class='row'><dt>number_of_species</dt><dd>6000</dd></div><div class='row'><dt>location</dt><dd>Africa, Asia, Europe, North America, Central America, South America</dd></div><div class='row'><dt>color</dt><dd>BrownGreyYellowRedBlueBlackWhiteTanGreen</dd></div><div class='row'><dt>top_speed</dt><dd>12.43 mph</dd></div><div class='row'><dt>lifespan</dt><dd>six months to two years</dd></div><div class='row'><dt>length</dt><dd>0.2 to 0.98 inches</dd></div><div class='row'><dt>age_of_sexual_maturity</dt><dd>In the first spring and summer of life, or around the sixth to eighth molt</dd></div><div class='row'><dt>age_of_weaning</dt><dd>38 days in the case of Toxeus magnus</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Peacock Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Salticidae</dd></div><div class='row'><dt>genus</dt><dd>Maratus</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Asia</li><li>Oceania</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>insects, spiders</dd></div><div class='row'><dt>name_of_young</dt><dd>eggs</dd></div><div class='row'><dt>biggest_threat</dt><dd>birds</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>Brightly colored body</dd></div><div class='row'><dt>other_name(s)</dt><dd>jumping spider, rainbow peacock</dd></div><div class='row'><dt>gestation_period</dt><dd>3-6 months</dd></div><div class='row'><dt>litter_size</dt><dd>100s of eggs</dd></div><div class='row'><dt>predators</dt><dd>birds, reptiles, insects</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>type</dt><dd>arachnid</dd></div><div class='row'><dt>common_name</dt><dd>Peacock spider</dd></div><div class='row'><dt>location</dt><dd>Australia</dd></div><div class='row'><dt>color</dt><dd>BrownYellowRedBlueWhiteGreenOrangePurpleLilac</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>lifespan</dt><dd>~1 year</dd></div><div class='row'><dt>length</dt><dd>4-5mm</dd></div><div class='row'><dt>age_of_sexual_maturity</dt><dd>6-9 months</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Redback Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>aranae</dd></div><div class='row'><dt>family</dt><dd>Theridiidae</dd></div><div class='row'><dt>genus</dt><dd>Latrodectus</dd></div><div class='row'><dt>scientific_name</dt><dd>Latrodectus hasselti</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Asia</li><li>Europe</li><li>Oceania</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Insects, sometimes smaller snakes, birds, lizards other spiders, including other redback spiders.</dd></div><div class='row'><dt>name_of_young</dt><dd>Hatchlings, spiderlings</dd></div><div class='row'><dt>group_behavior</dt><dd>Solitary</dd></div><div class='row'><dt>estimated_population_size</dt><dd>Possibly millions, but its conservation status is not evaluated</dd></div><div class='row'><dt>biggest_threat</dt><dd>Humans</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>Its red stripe</dd></div><div class='row'><dt>other_name(s)</dt><dd>Kanna-jeri spider, Murra-ngura spider, red-striped spider, Kapara spider, red spot spider, jockey spider, redback widow</dd></div><div class='row'><dt>gestation_period</dt><dd>Eight days</dd></div><div class='row'><dt>litter_size</dt><dd>40-500</dd></div><div class='row'><dt>habitat</dt><dd>Inside human dwellings and constructs, sometimes savannas, deserts or chaparral.</dd></div><div class='row'><dt>predators</dt><dd>Other spiders, including giant daddy long legs, spider wasps, mantid lacewings.</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>type</dt><dd>Arachnid</dd></div><div class='row'><dt>common_name</dt><dd>Redback spider</dd></div><div class='row'><dt>number_of_species</dt><dd>1</dd></div><div class='row'><dt>location</dt><dd>Oceania, Southeast Asia, Iran, India, and Japan</dd></div><div class='row'><dt>color</dt><dd>BrownRedBlack</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>lifespan</dt><dd>6 months to 3 years</dd></div><div class='row'><dt>weight</dt><dd>0.035 ounces</dd></div><div class='row'><dt>length</dt><dd>0.12 to 0.39 inches</dd></div><div class='row'><dt>age_of_sexual_maturity</dt><dd>90-100 days</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>Central-America</li><li>Eurasia</li><li>Europe</li><li>North-America</li><li>Oceania</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>diet</dt><dd>Omnivore</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Spider Ball Python</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Chordata</dd></div><div class='row'><dt>class</dt><dd>Reptilia</dd></div><div class='row'><dt>order</dt><dd>Squamata</dd></div><div class='row'><dt>family</dt><dd>Pythonidae</dd></div><div class='row'><dt>genus</dt><dd>Python</dd></div><div class='row'><dt>scientific_name</dt><dd>Python regius</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>litter_size</dt><dd>1-11 eggs</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>common_name</dt><dd>Ball python</dd></div><div class='row'><dt>color</dt><dd>Black</dd></div><div class='row'><dt>lifespan</dt><dd>20-50 years</dd></div><div class='row'><dt>length</dt><dd>3-4.5 feet</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Spider Monkey</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Chordata</dd></div><div class='row'><dt>class</dt><dd>Mammalia</dd></div><div class='row'><dt>order</dt><dd>Primates</dd></div><div class='row'><dt>family</dt><dd>Atelidae</dd></div><div class='row'><dt>genus</dt><dd>Ateles</dd></div><div class='row'><dt>scientific_name</dt><dd>Simia Paniscus</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Central-America</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>main_prey</dt><dd>Fruit, Nuts, Leaves</dd></div><div class='row'><dt>habitat</dt><dd>Tropical jungle and rainforest</dd></div><div class='row'><dt>predators</dt><dd>Human, Eagles, Jaguar</dd></div><div class='row'><dt>diet</dt><dd>Omnivore</dd></div><div class='row'><dt>average_litter_size</dt><dd>1</dd></div><div class='row'><dt>lifestyle</dt><dd>Troop</dd></div><div class='row'><dt>favorite_food</dt><dd>Fruit</dd></div><div class='row'><dt>type</dt><dd>Mammal</dd></div><div class='row'><dt>slogan</dt><dd>Found in the tropical jungles of South America!</dd></div><div class='row'><dt>color</dt><dd>BrownGreyBlackWhite</dd></div><div class='row'><dt>skin_type</dt><dd>Hair</dd></div><div class='row'><dt>top_speed</dt><dd>35 mph</dd></div><div class='row'><dt>lifespan</dt><dd>15-27 years</dd></div><div class='row'><dt>weight</dt><dd>6.4-12kg (14-26lbs)</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Spider Wasp</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Insecta</dd></div><div class='row'><dt>order</dt><dd>Hymenoptera</dd></div><div class='row'><dt>family</dt><dd>Pompilidae</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>Central-America</li><li>Eurasia</li><li>Europe</li><li>North-America</li><li>Oceania</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Spiders</dd></div><div class='row'><dt>habitat</dt><dd>Loose soil, rocks, or rotted wood.</dd></div><div class='row'><dt>predators</dt><dd>mammals, birds, reptiles, and amphibians</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>color</dt><dd>YellowBlueBlackOrange</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>weight</dt><dd>10 to 19 mg</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Spider-Tailed Horned Viper</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Chordata</dd></div><div class='row'><dt>class</dt><dd>Reptilia</dd></div><div class='row'><dt>order</dt><dd>Squamata</dd></div><div class='row'><dt>family</dt><dd>Viperidae</dd></div><div class='row'><dt>genus</dt><dd>Pseudocerastes</dd></div><div class='row'><dt>scientific_name</dt><dd>Pseudocerastes urarachnoides</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Asia</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Prefers birds but will also eat lizards, rodents, and arthropods</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>common_name</dt><dd>Iranian Spider Viper</dd></div><div class='row'><dt>color</dt><dd>GreyTan</dd></div><div class='row'><dt>skin_type</dt><dd>Scales</dd></div><div class='row'><dt>weight</dt><dd>Approx. 1 pound</dd></div><div class='row'><dt>length</dt><dd>About 20 inches</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Wolf Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Lycosidae</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>Central-America</li><li>Eurasia</li><li>Europe</li><li>North-America</li><li>Oceania</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>name_of_young</dt><dd>Spiderling</dd></div><div class='row'><dt>group_behavior</dt><dd>Solitary</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>Large eyes and mouth parts</dd></div><div class='row'><dt>habitat</dt><dd>Forests, plains, deserts, wetlands, and more</dd></div><div class='row'><dt>predators</dt><dd>Birds, reptiles, and rodents</dd></div><div class='row'><dt>diet</dt><dd>Omnivore</dd></div><div class='row'><dt>favorite_food</dt><dd>Ants, beetles, crickets, and other insects</dd></div><div class='row'><dt>common_name</dt><dd>Wolf Spider</dd></div><div class='row'><dt>location</dt><dd>All continents besides Antarctica</dd></div><div class='row'><dt>slogan</dt><dd>Carnivorous arachnid that hunts its prey.</dd></div><div class='row'><dt>group</dt><dd>Spider</dd></div><div class='row'><dt>color</dt><dd>Black</dd></div><div class='row'><dt>skin_type</dt><dd>Hair</dd></div><div class='row'><dt>lifespan</dt><dd>1 to 2 years</dd></div><div class='row'><dt>weight</dt><dd>Less than 1oz (30g )</dd></div><div class='row'><dt>length</dt><dd>0.24in – 1.2in (0.6cm - 3cm), body only</dd></div><div class='row'><dt>age_of_sexual_maturity</dt><dd>A few weeks</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Woodlouse Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Dysderidae</dd></div><div class='row'><dt>genus</dt><dd>Dysdera</dd></div><div class='row'><dt>scientific_name</dt><dd>Dysdera crocata</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Africa</li><li>Asia</li><li>Eurasia</li><li>Europe</li><li>North-America</li><li>Oceania</li><li>South-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>Woodlice, beetles, millipedes</dd></div><div class='row'><dt>name_of_young</dt><dd>Spiderlings</dd></div><div class='row'><dt>group_behavior</dt><dd>Solitary</dd></div><div class='row'><dt>estimated_population_size</dt><dd>Unknown</dd></div><div class='row'><dt>biggest_threat</dt><dd>Pesticide</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>Large chelicerae</dd></div><div class='row'><dt>other_name(s)</dt><dd>Woodlouse hunter, sowbug hunter</dd></div><div class='row'><dt>gestation_period</dt><dd>1-4 weeks</dd></div><div class='row'><dt>litter_size</dt><dd>Up to 70 eggs</dd></div><div class='row'><dt>habitat</dt><dd>Woodpiles, inside brick walls, basements, damp cellars</dd></div><div class='row'><dt>predators</dt><dd>Birds, mice, snakes</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>type</dt><dd>Arachnid</dd></div><div class='row'><dt>common_name</dt><dd>Woodlouse spider</dd></div><div class='row'><dt>location</dt><dd>North America, South America, Australia, Asia, Europe, Africa</dd></div><div class='row'><dt>color</dt><dd>BrownRedCreamOrange</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>weight</dt><dd>Less than one ounce</dd></div><div class='row'><dt>length</dt><dd>0.3in-0.5in</dd></div><div class='row'><dt>age_of_sexual_maturity</dt><dd>1 year</dd></div><div class='row'><dt>age_of_weaning</dt><dd>After hatching</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Writing Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Araneidae</dd></div><div class='row'><dt>genus</dt><dd>Argiope</dd></div><div class='row'><dt>scientific_name</dt><dd>Argiope aurantia</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>Central-America</li><li>North-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>dragonflies, flies, mosquitos, tree bugs, beetles</dd></div><div class='row'><dt>group_behavior</dt><dd>Solitary</dd></div><div class='row'><dt>biggest_threat</dt><dd>winter season</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>unique webbing pattern</dd></div><div class='row'><dt>other_name(s)</dt><dd>yellow garden spider, zigzag spider</dd></div><div class='row'><dt>gestation_period</dt><dd>60-90 days</dd></div><div class='row'><dt>habitat</dt><dd>near bodies of water and shrubbery</dd></div><div class='row'><dt>predators</dt><dd>humans, jumping spiders, spider wasps, and birds</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>type</dt><dd>arachnid</dd></div><div class='row'><dt>common_name</dt><dd>zipper spider</dd></div><div class='row'><dt>location</dt><dd>North America</dd></div><div class='row'><dt>average_clutch_size</dt><dd>852</dd></div><div class='row'><dt>group</dt><dd>solitary</dd></div><div class='row'><dt>color</dt><dd>YellowBlack</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>lifespan</dt><dd>about one year for females</dd></div><div class='row'><dt>length</dt><dd>females: 0.9-1.2 inches and males: 0.5-0.9 cm</dd></div></dl></details></section>
+        </article>
+        
+        <article class="animal-card">
+          <header><h2 class="animal-name">Yellow Sac Spider</h2></header>
+          <section><h3>Taxonomy</h3><dl class='kv'><div class='row'><dt>kingdom</dt><dd>Animalia</dd></div><div class='row'><dt>phylum</dt><dd>Arthropoda</dd></div><div class='row'><dt>class</dt><dd>Arachnida</dd></div><div class='row'><dt>order</dt><dd>Araneae</dd></div><div class='row'><dt>family</dt><dd>Cheiracanthiidae</dd></div><div class='row'><dt>genus</dt><dd>Cheiracanthium</dd></div></dl></section>
+          <section><h3>Locations</h3><ul class='locations'><li>North-America</li></ul></section>
+          <section><details><summary><strong>Characteristics</strong></summary><dl class='kv'><div class='row'><dt>prey</dt><dd>insects, other spiders</dd></div><div class='row'><dt>name_of_young</dt><dd>eggs, spiderlings</dd></div><div class='row'><dt>most_distinctive_feature</dt><dd>translucent body with darker feet</dd></div><div class='row'><dt>other_name(s)</dt><dd>Blackfooted Spider</dd></div><div class='row'><dt>gestation_period</dt><dd>4-6 months</dd></div><div class='row'><dt>litter_size</dt><dd>5 egg sacs per nest, 40 eggs each</dd></div><div class='row'><dt>habitat</dt><dd>gardens, foliage, wood and debris</dd></div><div class='row'><dt>diet</dt><dd>Carnivore</dd></div><div class='row'><dt>type</dt><dd>arachnid</dd></div><div class='row'><dt>common_name</dt><dd>Yellow Sac Spider</dd></div><div class='row'><dt>location</dt><dd>North America</dd></div><div class='row'><dt>color</dt><dd>YellowTanGreenCreamLight-Brown</dd></div><div class='row'><dt>skin_type</dt><dd>Exoskeleton</dd></div><div class='row'><dt>lifespan</dt><dd>1-2 years</dd></div><div class='row'><dt>length</dt><dd>Legs ~1 inch, body only ¼ - ⅜ inches</dd></div></dl></details></section>
+        </article>
+        </div>
+<style>
+  .animal-results { display: grid; gap: 1rem; }
+  .animal-card { border: 1px solid #ddd; border-radius: 12px; padding: 1rem; }
+  .animal-name { margin: 0 0 .5rem 0; }
+  .kv { display: grid; grid-template-columns: max-content 1fr; column-gap: .75rem; row-gap: .25rem; }
+  .kv .row { display: contents; }
+  .kv dt { font-weight: 600; }
+  .kv dd { margin: 0; }
+  .locations { margin: .25rem 0 0 1rem; }
+</style>
+        </ul>
+    </body>
+</html>
